@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Launch via NPM (works no docker)",
+      "request": "launch",
+      "outputCapture": "std",
+      "runtimeArgs": [
+        "run",
+        "debug"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    }
+  ]
+}
